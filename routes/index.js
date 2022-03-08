@@ -13,4 +13,10 @@ router.get('/nosotros', function(req, res, next) {
 });
 
 
+/* GET productos page. (productos.ejs) */
+router.get('/productos', function(req, res, next) {
+  res.render('productos', { title: 'Productos' });
+});
+
+
 module.exports = router;
