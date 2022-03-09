@@ -17,8 +17,10 @@ connection.connect(
     }
 );
 
-connection.query("SELECT * FROM producto", function (err, results) {
+/*connection.query("SELECT * FROM producto", function (err, results) {
     console.log(results);
 });
 
-connection.end();
+connection.end();*/
+
+module.exports = connection;

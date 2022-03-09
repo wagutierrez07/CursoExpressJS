@@ -9,13 +9,7 @@ router.get('/', function(req, res, next) {
 
 /* GET nosotros page. (nosotros.ejs) */
 router.get('/nosotros', function(req, res, next) {
-  res.render('nosotros', { title: 'Nosotros somos...' });
-});
-
-
-/* GET productos page. (productos.ejs) */
-router.get('/productos', function(req, res, next) {
-  res.render('productos', { title: 'Productos' });
+  res.render('nosotros', { title: 'Nosotros somos' });
 });
 
 
